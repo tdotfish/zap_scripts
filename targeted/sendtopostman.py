@@ -1,3 +1,12 @@
+# Note: This was a script that I wrote to quickly accomplish an objective but it is
+# not great because it does not handle multi-select appropriately and it constantly
+# switches over to the Script Output tab even though there is really nothing useful
+# printed in there.
+#
+# I encourage you to use extender/sendtopostman_popup.py script instead but I'm
+# leaving this script in github because the framework of building an OS command and
+# running it could be helpful.
+# 
 # Translated the built-in curl_command_generator.js to python
 # and tweaked it slightly so that you can right click a request in the History
 # or other tab and send it to Postman to easily add it to a collection
